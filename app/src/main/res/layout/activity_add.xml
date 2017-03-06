@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_add"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorAccent"
+    tools:context="com.example.user.project.Add">
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:layout_marginTop="47dp"
+        android:id="@+id/editText"
+        android:hint="@string/foodname"
+        android:background="@drawable/roundedittext"
+        android:gravity="center"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:layout_marginTop="33dp"
+        android:id="@+id/editText2"
+
+        android:background="@drawable/roundedittext"
+        android:gravity="center"
+        android:layout_below="@+id/editText"
+        android:layout_alignStart="@+id/editText"
+        android:hint="@string/address"/>
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/editText3"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/roundedittext"
+        android:gravity="center"
+        android:layout_below="@+id/button"
+        android:layout_alignStart="@+id/editText2"
+        android:hint="@string/foodnum"/>
+
+    <Button
+        android:text="Add"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="34dp"
+        android:id="@+id/button"
+        android:layout_below="@+id/editText2"
+        android:layout_alignStart="@+id/editText3"
+        android:layout_marginStart="34dp"
+        android:background="@drawable/roundbutton"
+        />
+
+    <Button
+        android:text="@string/all"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button4"
+        android:layout_alignBaseline="@+id/button"
+        android:layout_alignBottom="@+id/button"
+        android:layout_alignEnd="@+id/editText3"
+        android:layout_marginEnd="31dp"
+        android:background="@drawable/roundbutton" />
+
+    <Button
+        android:text="@string/del"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:id="@+id/button3"
+        android:background="@drawable/roundbutton"
+        android:layout_below="@+id/editText3"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

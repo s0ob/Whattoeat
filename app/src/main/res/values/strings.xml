@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">What to eat!</string>
+    <string name="title_activity_navmenu">Navmenu</string>
+    <string name="home">Home</string>
+    <string name="generate">Food Generator</string>
+    <string name="add">Food List</string>
+    <string name="button">Press Here</string>
+    <string name="del">Delete</string>
+    <string name="all">View all</string>
+    <string name="address">Address</string>
+    <string name="foodname">Food Name</string>
+    <string name="foodnum">Food Number</string>
+    <string name="search_title">Type Your Food Name</string>
+    <string name="search_hint">Type Your Food Name</string>
+    <string name="action_settings">Settings</string>
+</resources>
